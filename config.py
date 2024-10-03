@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME", "YUMEKO_ASS")
 BOT_TOKEN = getenv("6413944722:AAGB0DBtq-nKxBgTJHkAkQr58IyYTQwpVns")
 
 #❖ Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
