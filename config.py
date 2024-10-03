@@ -8,7 +8,7 @@ load_dotenv()
 
 #❖ Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID", 23725048))
-API_HASH = getenv("API_HASH", fa7e4308d0215fb4b69dd250e02f3b8f)
+API_HASH = getenv("API_HASH", "fa7e4308d0215fb4b69dd250e02f3b8f")
 
 #❖ Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "User_death_by_devil")
