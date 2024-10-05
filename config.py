@@ -42,6 +42,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 #❖  Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
+STRING_SESSION = getenv("STRING_SESSION","BQGV8uYAF9RtUyhiZKyWsWFVL2yyYVWWzNdLTQ8hUSMB5_pNNIGJomX31iN80FXM_jCNdgBtAfQ7XuSTt2mF2Ra8aO4EANEfw3vp0k04D2ZM3bJwnKVLcVPtPi2NrqhIpdJTLWkXo_B_hLLje6-jag68GozP0vFL43WZ0ydpqmBZiR04nJ48P6GVWdqgZg8em_apcmfrsZAOiAWVmYO3QTG-fQsycxzu4ynJJ3hFMHOEwjTqgkc2AgIlxDXoxDAu8fySJMRwpw1obUi80hQXmc1Cy0DbquTpPIgoKyd08r9jfQzS9sjNEcv1veyobKEQelVjJzgoSwSDlQ80mTWd7_rWB6pwAAAAHZiffuAA")
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/darkmadara09/Music",
